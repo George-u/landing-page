@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Custom styles for index.html page, author Yuriy-Motyl */
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 256px;
+    align-items: center;
+}
+
+.blockOne {
+    background: url(../img/designer_1.png) no-repeat;
+    background-position: bottom -105px right 75px;
+}
+
+.blockOne-top {
+    max-width: 539px;
+}
+
+.nav {
+    margin-top: 18px;
+}
+
+.logo {
+    margin-top: 12px;
+}
+
+.navLink {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+    text-decoration: none;
+}
+
+.navLink:not(:last-child) {
+    margin-right: 60px;
+}
+
+.blockOne-top .title {
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+    margin-bottom: 20px;
+}
+
+.smallheading {
+    margin-top: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #091133;
+    margin-bottom: 16px;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #6F7CB2;
+    max-width: 730px;
+    margin-bottom: 80px;
+}
+
+.block-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #37447E;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #37447E;
+    margin-bottom: 8px;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #5D6970;
+    margin-bottom: 30px;
+    max-width: 350px;
+}
+
+.btn {
+    background: #111B47;
+    border-radius: 2px;
+    border: 2px solid #111B47;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26.3px;
+    text-align: center;
+    color: #FFFFFF;
+    min-width: 189px;
+    padding: 3px 15px;
+}
+
+.btn:hover {
+    border-color: #091133;
+    background: rgba(0, 0, 0, 0);
+    color: #091133;
+}
+
+.btn.small {
+    font-size: 12px;
+    line-height: 18px;
+    min-width: 160px;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+}
+
+.buttons {
+    margin-top: 69px;
+    display: flex;
+}
+
+.buttons :first-child {
+    margin-right: 30px;
+}
+
+.block-two-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 540px;
+}
+
+.bkg-image {
+    background: url(../img/undraw_mobile_login_ikmv.svg) no-repeat;
+    background-position: right 25% bottom 55%;
+}
+
+.block-two-icons {
+    max-width: 540px;
+}
+
+.icon {
+    margin-bottom: 14px;
+}
+
+.cardtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    color: #091133;
+    margin-bottom: 8px;
+}
+
+.btn.small {
+    margin-top: 18px;
+    margin-right: 165px;
+}
+
+.smalltitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #091133;
+    margin-bottom: 6px;
+}
